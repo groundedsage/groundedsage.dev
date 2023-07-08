@@ -2,7 +2,7 @@ module.exports = {
 	title: "Grounded Sage",
 	url: "https://www.groundedsage.dev/",
 	language: "en",
-	description: "For the benefit of all beings",
+	description: "Shamanic Coder working with spirit for the benefit of all beings",
 	// author: {
 	// 	name: "Your Name Here",
 	// 	email: "youremailaddress@example.com",
