@@ -5,6 +5,17 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
+
+<p>Working at</p>
+<h2 style="margin-top:-1rem;">Sofia Intelligence</h2>
+<a href="https://sophiaintelligence.ai/">
+<img style="width:100%" src="img/sophia-Intelligence.png">
+</a>
+<p>Resident at the</p>
+<h2 style="margin-top:-1rem;">Monastery of Infinite Mystics</h2>
+<img style="width:100%" src="img/sophia-Intelligence.png">
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
@@ -13,10 +24,7 @@ numberOfLatestPostsToShow: 3
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
-{% endif %}
+
 
 {# List every content page in the project #}
 {#
