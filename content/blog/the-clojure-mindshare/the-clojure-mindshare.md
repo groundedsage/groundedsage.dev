@@ -2,10 +2,8 @@
 title: The Clojure Mindshare.
 description: Why I chose Clojure as the mother tongue in the realms of software.
 date: 2018-05-01
-tags:
-  - Clojure
-  - Programming
 ---
+
 When I get asked why Clojure can be very difficult to summarize. We are in an industry that is so new, so fast-moving and so financially rewarding that people tend to gravitate towards popular programming languages. These people are quick to migrate to a new technology, they often skip fundamentals or simply have no interest in gaining fundamental knowledge. 
 
 As a result, there is always a "battle" for mindshare with new languages, libraries, frameworks, and tools. 

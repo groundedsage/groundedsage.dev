@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
 	<head>
+
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/dragon-32.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/img/dragon-64.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="/img/dragon-128.png">
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
@@ -32,6 +37,7 @@
 		<style>{% getBundle "css" %}</style>
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
