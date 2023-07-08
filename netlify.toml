@@ -22,3 +22,8 @@
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
+
+[[redirects]]
+  from = "/posts/the-clojure-mindshare"
+  to = "/blog/the-clojure-mindshare/"
+  status = 301
