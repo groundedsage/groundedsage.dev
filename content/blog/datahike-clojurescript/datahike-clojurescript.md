@@ -5,6 +5,8 @@ date: 2021-03-03
 ---
 <link rel="canonical" href="https://lambdaforge.io/2021/03/03/datahike-clojurescript.html" />
 
+<p>Original post can be found <a href="https://lambdaforge.io/2021/03/03/datahike-clojurescript.html"> here </a>.</p>
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e9ad51e5e6f34b06ba535c6f5eff657b?sid=12441379-430c-4df1-92a2-247c6c848086" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Web browsers are now extremely capable, but building a non-trivial web application still remains a boatload of work. Especially when building for an application that is capable of being offline and handling intermittent connectivity. This is without factoring in the complexity of modelling the domain of your application. Which by the way we think Datalog is exceptionally good at.
